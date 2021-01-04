@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.name-hilight{ 
+    color: orangered;
+}
+.half-width{ 
+    width: 40%;
+    float: left;
+    margin-left:2%;
+    padding: 3%;
+}
+.half-width img{
+    width: 100%;
+}
+.font-color{
+    font-style: oblique;
+    color: orangered;
+}
+.body-color{
+    color:black
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{ 
+    height:500px;
+    
+}
