@@ -29,5 +29,51 @@ h1{
 }
 section{ 
     height:500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(lightSalmon, tomato) ;
+    padding: 10px 20px;
+    color:white ;
+     border-radius:5px ;
+     font-weight: 700;
+}
+.for-p{ 
     
+    scroll-padding-bottom: 50px;
+}
+p{
+    color: rgb(8, 8, 8);
+}
+.dream-area{
+ background-image: url(img/dream-bg.png);
+ background-repeat: no-repeat ;
+ background-position: right;
+}
+.exprence{
+    color: orangered;
+}
+.box-shadow{
+    box-shadow:10px 10px 40px gray ;
+    height: fit-content;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+    
+}
+#redious{
+    border-left: 7px solid;
+    border-image: linear-gradient( lightsalmon, tomato) ;
+    border-image-slice: 1;
+}
+#another-redious{
+    border-left: 7px solid ;
+    border-image:linear-gradient(180deg, blue, cyan) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
